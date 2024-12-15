@@ -1,8 +1,8 @@
-@import url("colors.css");
+@import url("https://krusherpt.com/assets/colors.css");
 
 @font-face {
     font-family: "Kyok Medium";
-    src: url("assets/Kyok-medium.otf") format('truetype');
+    src: url("https://krusherpt.com/assets/Kyok-medium.otf") format('truetype');
 }
 
 :root {
@@ -14,7 +14,7 @@
 
 body {
   background-color: var(--background);
-  background-image: url("assets/background.png");
+  background-image: url("https://krusherpt.com/assets/background.png");
   background-size: cover;
   margin: 0px;
   width: 100vw;
@@ -48,7 +48,7 @@ body {
 #nazrin {
   width: var(--art-size);
   height: var(--art-size);
-  background-image: url("assets/bg2.png");
+  background-image: url("https://krusherpt.com/assets/bg2.png");
   background-size: cover;
   background-position: left;
   border-radius: var(--border-radius);
@@ -81,6 +81,10 @@ a {
 
 .bookmark-set.green a:hover {
   border-color: var(--color2);
+}
+
+.bookmark-set.google a:hover {
+  border-color: #69ce73;
 }
 
 .bookmark-set.yellow a:hover {
@@ -122,6 +126,11 @@ div.divider {
 .bookmark-set.green .bookmark-title,
 .bookmark-set.green .divider {
   color: var(--color2);
+}
+
+.bookmark-set.google .bookmark-title,
+.bookmark-set.google .divider {
+  color: #69ce73;
 }
 
 .bookmark-set.yellow .bookmark-title,
